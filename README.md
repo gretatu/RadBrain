@@ -21,6 +21,6 @@ A toolbox for implementing text in the gyri of a (real) brain surface reconstruc
 
 The implementation is based on the projects:
 
-- GG-19 implementation 'neural-style-tf' by [cysmith](https://github.com/cysmith/neural-style-tf).
+- TensorFlow implementation of VGG-19 'neural-style-tf' by [cysmith](https://github.com/cysmith/neural-style-tf).
 
 - Brain surface reconstruction is made with [Freesurfer 6.0.0](https://surfer.nmr.mgh.harvard.edu/) and processed in [MeshLab](http://www.meshlab.net/). 
