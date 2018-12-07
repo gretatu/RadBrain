@@ -1,6 +1,6 @@
 A toolbox for implementing text in the gyri of a (real) brain surface reconstruction using a pretrained deep VGG-19 network.
 
-*In collaboration with Matt Siegelman, Massachusetts Institute of Technology, 2018.*
+*In collaboration with [Matt Siegelman](https://github.com/msieg), Massachusetts Institute of Technology, 2018.*
 
 #### Dependencies:
 
