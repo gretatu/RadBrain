@@ -1,3 +1,5 @@
+'''TensorFlow implementation of VGG-19 'neural-style-tf' by cysmith (https://github.com/cysmith/neural-style-tf)'''
+
 import tensorflow as tf
 import numpy as np 
 import scipy.io  
