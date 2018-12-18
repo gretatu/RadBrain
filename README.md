@@ -13,7 +13,7 @@ A toolbox for implementing text in the gyri of a (real) brain surface reconstruc
   Download the VGG-19 model weights (see the ["VGG-VD models from the Very Deep Convolutional Networks for Large-Scale Visual Recognition project" section](http://www.vlfeat.org/matconvnet/pretrained/)). More info about the VGG-19 network can be found [here](http://www.robots.ox.ac.uk/~vgg/research/very_deep/).
   After downloading, copy the weights file imagenet-vgg-verydeep-19.mat to the project directory.
 
-- Run the python script, which will ask you to enter the word you wish to write in the gyri.
+- Run the python script RadBrain.py, which will ask you to enter the word you wish to write in the gyri.
 - Wait. 
 - The result will be located in the /output/ folder.
 
