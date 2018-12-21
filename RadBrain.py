@@ -29,7 +29,7 @@ if len(textstr) > 7:
         print("Awesome, the gyri are cooking, please wait")
 
 
-img = cv2.imread('matt_no_contrast.png',0)
+img = cv2.imread('template.png',0)
 edges = cv2.Canny(img,180,250)
 cv2.imwrite('edges.png',edges)
 edges = Image.open('edges.png')
@@ -37,9 +37,9 @@ edges = Image.open('edges.png')
 
 cur_dir = os.path.dirname(__file__)
 
-brain1 = Image.open('matt_no_contrast.png')
+brain1 = Image.open('template.png')
 brain_orig=brain1
-rois = Image.open('matt_rois.png')
+rois = Image.open('ROIs.png')
 
 
 
@@ -96,7 +96,7 @@ while stop==0:
 
 	restart=0
 
-	brain = Image.open('matt_no_contrast.png')
+	brain = Image.open('template.png')
 	brain.save('brain_temp.png')
 
 	fill=[]
@@ -445,10 +445,7 @@ for m in maskedge:
 mask.save('./input/brain_mask.png')
 
 # Let's go, deep art
-
-os.chdir('C:\\Users\\Greta\\Dropbox\\RadBrain')
-
-#os.system('python NeuralStyle.py --content_img brain.png --style_imgs carpet_big.png --max_size 500 --max_iterations 100 --original_colors --style_mask --style_mask_imgs brain_mask.png --device /cpu:0 --verbose')
+os.system('python NeuralStyle.py --content_img brain.png --style_imgs carpet_big.png --max_size 500 --max_iterations 100 --original_colors --style_mask --style_mask_imgs brain_mask.png --device /cpu:0 --verbose')
 
 
 
