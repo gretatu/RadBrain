@@ -17,6 +17,10 @@ A toolbox for implementing text in the gyri of a (real) brain surface reconstruc
 - Wait. 
 - The result will be located in the /output/ folder.
 
+#### Example
+![alt text](https://raw.githubusercontent.com/gretatuckute/RadBrain/master/example/example_gyri_greta.png)
+*My name is hidden in there.. somewhere*
+
 #### Acknowledgements
 
 The implementation is based on the projects:
